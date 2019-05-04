@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Document</title>
 </head>
-<body style="background-image: url('assets/images/crossline-lines.png')">
+<body style="background-image: url('assets/images/crossline-lines.png'); margin: 0; padding: 0;">
     <nav class="navbar navbar-expand-lg navbar-light bg-white border border-dark my-0 py-0">
         <div class="container-fluid" role="navigation">
             <div class="navbar header my-0 py-0" >
@@ -28,6 +28,7 @@
     <br>
     <br>
     <div class="container bg-white border border-dark">
+        <!-- First row of the container  -->
         <div class="row">
             <div class="col-md-8 offset-md-0" style="background-image: url('../images/crossline-lines.png')">
                 <h2>About Me</h2>
@@ -35,11 +36,12 @@
         </div>
         <hr>
         <br>
+        <!-- Second row of the container  -->
         <div class="row">
-            <div class="col-md-3">
-                <img src="assets/images/dupe_profile3.jpg" alt="Profile image goes here" width="180" height="200">
+            <div class="col-md-2">
+                <img src="assets/images/dupe_profile3.jpg" alt="Profile image goes here" width="100%" height="50%">
             </div>
-            <div class="col-md-9">
+            <div class="col-md-10">
                 <p>I am a software development enthusiast and a stay-at-home dad. I have two wonderful children whom I enjoy nuturing and caring for. 
                 I am currently attending a coding boot camp at UCR Extension for the Full Stack Flex program, which ends first week in October. 
                 I hope to use the skills I will acquire to facilitate my transition from an web development enthusiast to a professional. After a couple of weeks
@@ -47,19 +49,23 @@
                 a webpage and how the concept of positioning is very integral to understanding how to intentionally layout a webpage. </p>
                 <p>My background is in electrical engineering, which I studied at the University of Houston. Ironically, I took a few programming courses in college
                 which I hated and ultimately struggled in. My interest in programming started to grow well after I graduated from college. A couple of years ago, I 
-                started learn programming languages such as Java, Python, R, and C++. I started learning HTML, CSS and Javascript a few months before the coding bootcamp
+                started learn programming languages such as Java, Python, R, and C++. I started learning HTML, CSS and Javascript a few months before the coding bootcamp 
                 at UCR Extension. After graduating with a bachelor's degree in 2007, I worked as a design engineer with Houston Transformer Company for a couple of years.</p>
-                
+                <p>Being an elder millenial, I have different hobbies and interests. For example, I am curious about the technologies that power 
+                social media platforms, but I am not active on their websites. I also enjoy playing basketball, watching great shows such as 
+                Game of Thrones and spending a lazy afternoon with my wife and kids at the beach. I am excited about the opportunities and experiences ahead of me as I 
+                immerse myself into front end and back end web development.</p>
+                <span class="glyphicon glyphicon-copyright-mark"></span>
             </div>
-            
-    
+                    
         </div>
     </div>
-    <footer class="footer bg-secondary">
+    <!-- Sticky footer is outside of the main container  -->
+    <footer class="footer bg-secondary mb-0 p-3" style="margin-top: 60px">
         <div class="container">
-            <span class="text-white">Mosfadtoo copyright 2019</span>
+            <p class="text-white"><span class="glyphicon glyphicon-copyright-mark"></span> 2019 MosfadToo</p>
         </div>
     </footer>
 
 </body>
-</html>
+</html> 
